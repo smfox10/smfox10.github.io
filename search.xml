@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[test pic]]></title>
+    <url>%2F2019%2F06%2F11%2Ftest-pic%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>机械</category>
+      </categories>
+      <tags>
+        <tag>机械</tag>
+        <tag>电子</tag>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[测试加载图片]]></title>
+    <url>%2F2019%2F06%2F11%2F%E6%B5%8B%E8%AF%95%E5%8A%A0%E8%BD%BD%E5%9B%BE%E7%89%87%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>机械</category>
+      </categories>
+      <tags>
+        <tag>机械</tag>
+        <tag>电子</tag>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[测试字数是否OK2]]></title>
+    <url>%2F2019%2F06%2F10%2F%E6%B5%8B%E8%AF%95%E5%AD%97%E6%95%B0%E6%98%AF%E5%90%A6OK2%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>机械</category>
+      </categories>
+      <tags>
+        <tag>机械</tag>
+        <tag>电子</tag>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[测试字数是否OK]]></title>
+    <url>%2F2019%2F06%2F10%2F%E6%B5%8B%E8%AF%95%E5%AD%97%E6%95%B0%E6%98%AF%E5%90%A6OK%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>机械</category>
+      </categories>
+      <tags>
+        <tag>机械</tag>
+        <tag>电子</tag>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[能量魔块的IOT应用]]></title>
+    <url>%2F2019%2F06%2F10%2F%E8%83%BD%E9%87%8F%E9%AD%94%E5%9D%97%E7%9A%84IOT%E5%BA%94%E7%94%A8%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>机械</category>
+      </categories>
+      <tags>
+        <tag>机械</tag>
+        <tag>电子</tag>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[test1]]></title>
+    <url>%2F2019%2F06%2F08%2Ftest1%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[测试下新增文章]]></title>
+    <url>%2F2019%2F06%2F08%2FAD%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>机械</category>
+        <category>曲面建模</category>
+      </categories>
+      <tags>
+        <tag>Scratch</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F05%2F31%2Fhello-world%2F</url>
+    <content type="text"></content>
+  </entry>
+</search>
