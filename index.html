@@ -404,6 +404,22 @@
             
 
             
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-08-20 00:09:27" itemprop="dateModified" datetime="2019-08-20T00:09:27+08:00">2019-08-20</time>
+              
+            
           </span>
 
           
@@ -418,7 +434,14 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/机械/" itemprop="url" rel="index"><span itemprop="name">机械</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/电子/" itemprop="url" rel="index"><span itemprop="name">电子</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/电子/AD学习笔记/" itemprop="url" rel="index"><span itemprop="name">AD学习笔记</span></a></span>
 
                 
                 
@@ -447,7 +470,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">0</span>
+                <span title="本文字数">4k</span>
               
 
               
@@ -461,7 +484,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">1 分钟</span>
+                <span title="阅读时长">7 分钟</span>
               
             </div>
           
@@ -483,7 +506,74 @@
       
         
           
-            
+            <h1 id="新建原理图库"><a href="#新建原理图库" class="headerlink" title="新建原理图库"></a>新建原理图库</h1><p>一般原理图库包含两大类元件：</p>
+<ul>
+<li>矩形类元件，如芯片</li>
+<li>其它元件，如电阻电容等等</li>
+</ul>
+<p>今天我们来学习如何绘制元件库</p>
+<h2 id="新建原理图库-1"><a href="#新建原理图库-1" class="headerlink" title="新建原理图库"></a>新建原理图库</h2><p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/01.png" alt></p>
+<p>会增加多有一个标签栏，后缀名为.schLib,这个就是原理图库的后缀名。</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/02.png" alt="02"></p>
+<h2 id="重命名新建一个元件"><a href="#重命名新建一个元件" class="headerlink" title="重命名新建一个元件"></a>重命名新建一个元件</h2><p>这里新建一个USB元件，注意黄色标注的信息，一般只有这三个需要填写。</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/03.png" alt="03"></p>
+<h3 id="画出元件大体的矩形"><a href="#画出元件大体的矩形" class="headerlink" title="画出元件大体的矩形"></a>画出元件大体的矩形</h3><p>首先我们画出一个矩形。快捷键PR</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/04.png" alt="04"></p>
+<p>第一个点，点在十字上，这个是常规的做法。之后拖动调整矩形的大小，随意即可，后面还可以进行调整的。</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/05.png" alt="05"></p>
+<p>基本操作</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/06.png" alt="06"></p>
+<h3 id="画元件的引脚"><a href="#画元件的引脚" class="headerlink" title="画元件的引脚"></a>画元件的引脚</h3><p>USB有5个引脚，快捷键PP，放置引脚</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/07.png" alt="07"></p>
+<p>引脚放置的十字热点必须朝外！！！</p>
+<p>引脚放置的十字热点必须朝外！！！</p>
+<p>引脚放置的十字热点必须朝外！！！</p>
+<p><strong>新手一般会在这里踩坑</strong></p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/08.png" alt="08"></p>
+<p>双击引脚进行编辑，我们的引脚可能叫123啦，肯定是对应实际的名字。</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/09.png" alt="09"></p>
+<p>标识一般是从1开始，标识是与PCB封装连接在一起的。</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/10.png" alt="10"></p>
+<p>这样已经命名好了第一个引脚了。</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/11.png" alt="11"></p>
+<p>剩余的引脚同理。置于引脚的排布，实质这个按照个人的喜好。不过一般大家都是按着顺序进行排列的。</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/12.png" alt="12"></p>
+<p>最后我们再重新根据引脚的情况，调整下矩形的大小，让元件的原理图看上去比较匀称。</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/13.png" alt="13"></p>
+<h2 id="元件放置"><a href="#元件放置" class="headerlink" title="元件放置"></a>元件放置</h2><p>点击放置，则护自动转到原理图绘制上。</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/14.png" alt="14"></p>
+<p>好了这样就放置成功一个了。</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/15.png" alt="15"></p>
+<p>这里演示放置多几个，并他们标注好。这个自动注解笔记02已经见过了。这里就不展开讲了。</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/18.png" alt="18"></p>
+<p>完成！</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/19.png" alt="19"></p>
+<h2 id="绘制LED元件"><a href="#绘制LED元件" class="headerlink" title="绘制LED元件"></a>绘制LED元件</h2><p>我们继续回到我们的原理图库中，点击添加</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/20.png" alt="20"></p>
+<p>重复刚才新建USB的类似步骤，这里信息填写时LED相关的。</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/21.png" alt="21"></p>
+<p>首先我们画好LED的轮廓线。</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/22.png" alt="22"></p>
+<p>OK这样大致的轮廓的画出来了。</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/23.png" alt="23"></p>
+<p>我们填充下那个三角形，油桶工具？AD这个软件里面是没有油桶工具这个概念，只有多边形填充的概念。</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/24.png" alt="24"></p>
+<p>双击多边形可以进行参数修改。貌似软件里面双击都是修改具体的参数。</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/25.png" alt="25"></p>
+<p>添加LED引脚，这个也是新手会踩坑的。直接用PL画线画完了。</p>
+<p>实质和芯片一样，<strong>只有引脚才有电气属性</strong>的。快捷键PP</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/26.png" alt="26"></p>
+<p>添加两个引脚</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/27.png" alt="27"></p>
+<p>双击更改下引脚的属性——命名</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/28.png" alt="28"></p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/29.png" alt="29"></p>
+<p>LED就是这样表示的，懂点电子这个都知道这个是二极管的符号，我们LED是指发光二极管，所以我们需要画两笔表示“发光”</p>
+<p>我们快捷键按“g”，调整栅格的大小，栅格大小有1、5、10，平时默认是10，我们这里调整到5</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/30.png" alt="30"></p>
+<p>快捷键PL进行画线，如果你不调整栅格，是画不到像下面的半格的。</p>
+<p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/31.png" alt="31"></p>
+
           
         
       
@@ -1103,7 +1193,7 @@
                     
                       
                     
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -1126,7 +1216,7 @@
                     
                       
                     
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">1</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -1180,7 +1270,7 @@
       <i class="fa fa-area-chart"></i>
     </span>
     
-    <span title="站点总字数">4k</span>
+    <span title="站点总字数">5k</span>
   
 
   
@@ -1189,7 +1279,7 @@
       <i class="fa fa-coffee"></i>
     </span>
     
-    <span title="站点阅读时长">6 分钟</span>
+    <span title="站点阅读时长">8 分钟</span>
   
 </div>
 
