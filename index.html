@@ -352,6 +352,714 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://smfox10.github.io/2019/08/26/AD学习笔记06/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="CCFIVE">
+      <meta itemprop="description" content="搭个技术博客用于监督自己进行学习~">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CC喵爱学习">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/08/26/AD学习笔记06/" class="post-title-link" itemprop="url">AD学习笔记06</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-26 00:01:46 / 修改时间：00:50:29" itemprop="dateCreated datePublished" datetime="2019-08-26T00:01:46+08:00">2019-08-26</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/电子/" itemprop="url" rel="index"><span itemprop="name">电子</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/电子/AD学习笔记/" itemprop="url" rel="index"><span itemprop="name">AD学习笔记</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">3.8k</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">6 分钟</span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="如何进行自动布线与快速铺铜"><a href="#如何进行自动布线与快速铺铜" class="headerlink" title="如何进行自动布线与快速铺铜"></a>如何进行自动布线与快速铺铜</h1><p>又是一个周末，写东西真的很累，所以又来写篇笔记调剂下…</p>
+<h2 id="删除地线网络"><a href="#删除地线网络" class="headerlink" title="删除地线网络"></a>删除地线网络</h2><p>即使是手工布线，一般GND网络都不需要特意进行布线，直接铺铜进行解决即可。如果再对GND进行自动布线就显得多此一举了。所以先把GND网络删除后，再对所有网络进行布线</p>
+<p> <img src="//smfox10.github.io/2019/08/26/AD学习笔记06/01.png" alt></p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/02.png" alt="02"></p>
+<p>删除GND后PCB情况，可以看到关于GND的连接都消失了。</p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/03.png" alt="03"></p>
+<h2 id="自动布线"><a href="#自动布线" class="headerlink" title="自动布线"></a>自动布线</h2><p>布线前设置规则</p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/04.png" alt="04"></p>
+<p>我这里只设置了线宽与过孔连接形式</p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/05.png" alt="05"></p>
+<p>设置规则点击确认</p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/06.png" alt="06"></p>
+<h2 id="正式开始自动布线"><a href="#正式开始自动布线" class="headerlink" title="正式开始自动布线"></a>正式开始自动布线</h2><p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/07.png" alt="07"></p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/08.png" alt="08"></p>
+<p>稍等片刻，就自动布线完毕</p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/09.png" alt="09"></p>
+<p>需要手工对自动布线很傻的地方进行调整</p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/10.png" alt="10"></p>
+<h2 id="重新加载GND网络"><a href="#重新加载GND网络" class="headerlink" title="重新加载GND网络"></a>重新加载GND网络</h2><p>既然已经自动布线完毕，那么让我们的GND网络重返回来把</p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/11.png" alt="11"></p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/12.png" alt="12"></p>
+<p>记得把ROOM删除掉，缩小才看到，不然板子一直显示绿色的。选中，delete即可。</p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/13.png" alt="13"></p>
+<p>可以看到GND重新加回来了。</p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/14.png" alt="14"></p>
+<h2 id="过孔批量设置"><a href="#过孔批量设置" class="headerlink" title="过孔批量设置"></a>过孔批量设置</h2><p>通过查找相似对象</p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/15.png" alt="15"></p>
+<p>选中其中一个过孔</p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/16.png" alt="16"></p>
+<p>设置查找的参数</p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/17.png" alt="17"></p>
+<p>结果查找出来了</p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/18.png" alt="18"></p>
+<p>把Net网络设置成GND</p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/19.png" alt="19"></p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/20.png" alt="20"></p>
+<h2 id="添加泪滴"><a href="#添加泪滴" class="headerlink" title="添加泪滴"></a>添加泪滴</h2><p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/32.png" alt></p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/33.png" alt="33"></p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/34.png" alt="34"></p>
+<h2 id="对板子进行敷铜"><a href="#对板子进行敷铜" class="headerlink" title="对板子进行敷铜"></a>对板子进行敷铜</h2><p>这里我从网上学到一个快速敷铜的方法，终于不用进行描边了…</p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/21.png" alt="21"></p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/22.png" alt="22"></p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/23.png" alt="23"></p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/24.png" alt="24"></p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/25.png" alt="25"></p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/26.png" alt="26"></p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/27.png" alt="27"></p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/28.png" alt="28"></p>
+<p>确认敷铜完成</p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/29.png" alt="29"></p>
+<p>切换到三维显示</p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/30.png" alt="30"></p>
+<p><img src="//smfox10.github.io/2019/08/26/AD学习笔记06/31.png" alt="31"></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://smfox10.github.io/2019/08/25/AD学习笔记05/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="CCFIVE">
+      <meta itemprop="description" content="搭个技术博客用于监督自己进行学习~">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CC喵爱学习">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/08/25/AD学习笔记05/" class="post-title-link" itemprop="url">AD学习笔记05</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-25 17:09:55" itemprop="dateCreated datePublished" datetime="2019-08-25T17:09:55+08:00">2019-08-25</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-08-26 00:51:29" itemprop="dateModified" datetime="2019-08-26T00:51:29+08:00">2019-08-26</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/机械/" itemprop="url" rel="index"><span itemprop="name">机械</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">1.3k</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">2 分钟</span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="如何改变元件的PCB封装"><a href="#如何改变元件的PCB封装" class="headerlink" title="如何改变元件的PCB封装"></a>如何改变元件的PCB封装</h1><p>假设你已经从原理图转到PCB绘制，在绘制过程中突然发现，用错了封装，是的，一般到了PCB真实的看到才知道用错了封装，没有关系，可以进行更改。</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记05/01.png" alt></p>
+<h2 id="封装管理器"><a href="#封装管理器" class="headerlink" title="封装管理器"></a>封装管理器</h2><p>如图操作</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记05/02.png" alt="02"></p>
+<p>选择要更改的元件</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记05/03.png" alt="03"></p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记05/04.png" alt="04"></p>
+<p>再选择对应的封装，当然首先这个封装你已经准备好了，更换封装一定要逐一，原来是有多少个PIN脚更改后，应该也是对应PIN脚数，否则会报错</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记05/05.png" alt="05"></p>
+<p>以下就是我的错误示范。。。本想将贴片晶振更换成直插晶振，后面发现PIN脚对不上。。。所以更换不成功，大家可以选电阻，LED这些进行更换。因为截图已经提前截好，所以这里就不更换了。大家注意点就是了。</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记05/06.png" alt="06"></p>
+<p>生效更改，执行更改，确认</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记05/07.png" alt="07"></p>
+<p>原理图需要重新更新生成PCB</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记05/08.png" alt="08"></p>
+<p>依旧三部曲，生效、执行，确认关闭</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记05/09.png" alt="09"></p>
+<p>如果选择正确的封装，这里应该就显示最新的封装了。</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记05/10.png" alt="10"></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://smfox10.github.io/2019/08/25/AD学习笔记04/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="CCFIVE">
+      <meta itemprop="description" content="搭个技术博客用于监督自己进行学习~">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CC喵爱学习">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/08/25/AD学习笔记04/" class="post-title-link" itemprop="url">AD学习笔记04</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-25 15:17:59 / 修改时间：16:50:44" itemprop="dateCreated datePublished" datetime="2019-08-25T15:17:59+08:00">2019-08-25</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/电子/" itemprop="url" rel="index"><span itemprop="name">电子</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/电子/AD学习笔记/" itemprop="url" rel="index"><span itemprop="name">AD学习笔记</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">3k</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">5 分钟</span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="如何快速绘制多脚芯片元件"><a href="#如何快速绘制多脚芯片元件" class="headerlink" title="如何快速绘制多脚芯片元件"></a>如何快速绘制多脚芯片元件</h1><p>前面一节我们已经学过如何绘制简单的元件。但往往画电路板都会遇到密密麻麻的芯片，难道我们真的像上次那样绘制USB那5个引脚，一个个绘制上去，再一个个引脚进行修改信息？有没有快速的一种方法，例如一张表格或者一个格式让我填写完后，让软件自动生成？于是我在网上进行查找了相关的信息，AD果真有这样的方法！</p>
+<h2 id="寻找芯片的封装"><a href="#寻找芯片的封装" class="headerlink" title="寻找芯片的封装"></a>寻找芯片的封装</h2><p>首先找到你所需要画的芯片封装，这里有个小技巧——可以直接到立创商城进行搜索。立创做的非常好，把元件的手册都放在了购买的页面，让你免费进行下载，免去你百度搜出一大堆垃圾。</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记04/01.png" alt></p>
+<h2 id="参照封装建立Excel表"><a href="#参照封装建立Excel表" class="headerlink" title="参照封装建立Excel表"></a>参照封装建立Excel表</h2><p>表头标题栏命名随意也可以，但一定要有这么多列，建议名称一致，方便软件中复制操作。</p>
+<p>真爽！直接在excel一下子把所有信息填上，不然逐个输入，真的要死咯！</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记04/02.png" alt="02"></p>
+<h2 id="原理图库新建器件"><a href="#原理图库新建器件" class="headerlink" title="原理图库新建器件"></a>原理图库新建器件</h2><p>常规操作，不能懒，否则绘制原理图的时候发现缺这个缺那个！</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记04/03.png" alt="03"></p>
+<h2 id="把Excel表粘贴到AD中"><a href="#把Excel表粘贴到AD中" class="headerlink" title="把Excel表粘贴到AD中"></a>把Excel表粘贴到AD中</h2><p>软件界面右下角“SCH… Lsit”</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记04/04.png" alt="04"></p>
+<p>设置成Edit编辑模式</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记04/05.png" alt="05"></p>
+<p>将Excel表的信息右键复制，这里我将<strong>表头</strong>也复制了！</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记04/06.png" alt="06"></p>
+<p>点击“SCHLIB List”的空白地方，右键，以“智能栅格插入”</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记04/07.png" alt="07"></p>
+<p>插入后得到这样的表，因为我们复制的时候是默认带有表头的，所以Header Row选上（默认选上）</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记04/08.png" alt="08"></p>
+<p>分别点上面与下面，将信息“Paste Column to Attribute”，所有列完成后，<strong>点OK</strong></p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记04/09.png" alt="09"></p>
+<p>返回界面就得到这样的信息，显然这个管教排布完全按照我们的表格来，我们还需要进行加工，改成跟手册上的图一模一样。手册上的1<del>20引脚，是从左上角开始逆时针一圈。所以先对1</del>10进行调整，圈选1~10。</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记04/10.png" alt="10"></p>
+<p>如图操作</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记04/11.png" alt="11"></p>
+<p>如图操作</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记04/12.png" alt="12"></p>
+<p>整理排布，最后的结果</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记04/13.png" alt="13"></p>
+<p>快捷键PR，加入矩形框</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记04/14.png" alt="14"></p>
+<p>然而矩形框点选确认后，直接盖住引脚的信息，这显然不是我们想要的</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记04/16.png" alt="16"></p>
+<p>右键点选1<del>10引脚和11</del>20引脚，剪切后，再粘贴（我在AD中找不到层叠排布的选项，无意中发现这样可行）</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记04/17.png" alt="17"></p>
+<p>噔，噔，噔，噔~这个就是我们最终想要的结果，在少管脚的元件可能体现不出优势，你试一试64个引脚上的芯片，你就很明显感受到，批量编辑后，再粘贴生成是多么方便的事情。</p>
+<p><img src="//smfox10.github.io/2019/08/25/AD学习笔记04/15.png" alt></p>
+<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>这个方法在AD的书根本都没讲，可能AD的书对软件上每个按键都讲解了，但这些这么使用的功能却没有讲到真的是败笔。所以这里为了帮助自己学习往后可以回顾，这里做了笔记。网络真的是一个学习宝库，自己一定要学会如何寻找答案解决问题。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://smfox10.github.io/2019/08/18/AD学习笔记03/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -417,7 +1125,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-08-20 00:09:27" itemprop="dateModified" datetime="2019-08-20T00:09:27+08:00">2019-08-20</time>
+                <time title="修改时间：2019-08-25 15:16:46" itemprop="dateModified" datetime="2019-08-25T15:16:46+08:00">2019-08-25</time>
               
             
           </span>
@@ -571,7 +1279,7 @@
 <p>LED就是这样表示的，懂点电子这个都知道这个是二极管的符号，我们LED是指发光二极管，所以我们需要画两笔表示“发光”</p>
 <p>我们快捷键按“g”，调整栅格的大小，栅格大小有1、5、10，平时默认是10，我们这里调整到5</p>
 <p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/30.png" alt="30"></p>
-<p>快捷键PL进行画线，如果你不调整栅格，是画不到像下面的半格的。</p>
+<p>快捷键PL进行画线，如果你不调整栅格，是画不到像下面的半格的。这样LED元件就画好了。</p>
 <p><img src="//smfox10.github.io/2019/08/18/AD学习笔记03/31.png" alt="31"></p>
 
           
@@ -937,7 +1645,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-08-18 21:19:40" itemprop="dateModified" datetime="2019-08-18T21:19:40+08:00">2019-08-18</time>
+                <time title="修改时间：2019-08-26 00:51:32" itemprop="dateModified" datetime="2019-08-26T00:51:32+08:00">2019-08-26</time>
               
             
           </span>
@@ -1170,7 +1878,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">6</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -1193,7 +1901,7 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -1216,7 +1924,7 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -1270,7 +1978,7 @@
       <i class="fa fa-area-chart"></i>
     </span>
     
-    <span title="站点总字数">5k</span>
+    <span title="站点总字数">7k</span>
   
 
   
@@ -1279,7 +1987,7 @@
       <i class="fa fa-coffee"></i>
     </span>
     
-    <span title="站点阅读时长">8 分钟</span>
+    <span title="站点阅读时长">11 分钟</span>
   
 </div>
 
