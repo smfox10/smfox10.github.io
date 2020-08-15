@@ -352,7 +352,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://smfox10.github.io/2020/01/29/KOI08/">
+    <link itemprop="mainEntityOfPage" href="https://smfox10.github.io/2020/02/16/tkinter学习/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="CCFIVE">
@@ -372,7 +372,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2020/01/29/KOI08/" class="post-title-link" itemprop="url">KOI03</a>
+                <a href="/2020/02/16/tkinter学习/" class="post-title-link" itemprop="url">tkinter学习</a>
               
             
           </h1>
@@ -400,7 +400,7 @@
                 
               
 
-              <time title="创建时间：2020-01-29 16:05:45" itemprop="dateCreated datePublished" datetime="2020-01-29T16:05:45+08:00">2020-01-29</time>
+              <time title="创建时间：2020-02-16 22:31:42" itemprop="dateCreated datePublished" datetime="2020-02-16T22:31:42+08:00">2020-02-16</time>
             
 
             
@@ -417,7 +417,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2020-02-02 16:27:01" itemprop="dateModified" datetime="2020-02-02T16:27:01+08:00">2020-02-02</time>
+                <time title="修改时间：2020-02-19 16:31:58" itemprop="dateModified" datetime="2020-02-19T16:31:58+08:00">2020-02-19</time>
               
             
           </span>
@@ -434,7 +434,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/机械/" itemprop="url" rel="index"><span itemprop="name">机械</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/软件/" itemprop="url" rel="index"><span itemprop="name">软件</span></a></span>
 
                 
                 
@@ -463,7 +463,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">1.7k</span>
+                <span title="本文字数">8.1k</span>
               
 
               
@@ -477,7 +477,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">3 分钟</span>
+                <span title="阅读时长">14 分钟</span>
               
             </div>
           
@@ -499,35 +499,63 @@
       
         
           
-            <h1 id="屏幕信息打印显示"><a href="#屏幕信息打印显示" class="headerlink" title="屏幕信息打印显示"></a>屏幕信息打印显示</h1><p>常规的英文字符串可以显示在KOI的屏幕上</p>
-<h2 id="Robotbit硬件接线"><a href="#Robotbit硬件接线" class="headerlink" title="Robotbit硬件接线"></a>Robotbit硬件接线</h2><p>这里以Robotbit为例，当然你也可以用Powerbrick，Powerbrick接线会更简单些，而且不会接反。</p>
-<p>电源正负极切勿接反！</p>
-<p>电源正负极切勿接反！</p>
-<p>电源正负极切勿接反！</p>
-<p>接线附图所示，请再三确认后！再打开电源！</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI08/05.png" alt></p>
-<h2 id="打开Robotbit电源"><a href="#打开Robotbit电源" class="headerlink" title="打开Robotbit电源"></a>打开Robotbit电源</h2><p>打开电源后，锦鲤魔块就会亮起来</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI08/06.png" alt></p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI08/07.png" alt></p>
-<h2 id="编写屏幕信息显示"><a href="#编写屏幕信息显示" class="headerlink" title="编写屏幕信息显示"></a>编写屏幕信息显示</h2><p>请自行加载</p>
-<p>KOI的插件：<a href="https://github.com/KittenBot/pxt-koi" target="_blank" rel="noopener">https://github.com/KittenBot/pxt-koi</a></p>
-<p>编写程序：</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI08/01.png" alt></p>
-<h2 id="程序结果"><a href="#程序结果" class="headerlink" title="程序结果"></a>程序结果</h2><ul>
-<li><p>把程序下载到Microbit上</p>
-</li>
-<li><p>按下Microbit的按键A、B，屏幕就会进行显示</p>
-</li>
-<li><p>按下Microbit的按键B，即可显示刚才拍的图片</p>
-</li>
+            <h2 id="更换pip源到国内镜像"><a href="#更换pip源到国内镜像" class="headerlink" title="更换pip源到国内镜像"></a>更换pip源到国内镜像</h2><p><code>pip install scrapy -i https://pypi.tuna.tsinghua.edu.cn/simple</code></p>
+<h2 id="tkinter打包exe"><a href="#tkinter打包exe" class="headerlink" title="tkinter打包exe"></a>tkinter打包exe</h2><p>1.安装pyinstaller</p>
+<p><code>pip install pyinstaller</code></p>
+<p>若安装请跳过。</p>
+<p>2.打包<br>window系统win+R打开cmd，<br>切换到需要打包的文件(koi.py)目录。cd C:\Project\pythonGUI&gt;</p>
+<p>执行<br><code>pyinstaller -F -w koi.py</code></p>
+<p>-F 打包后生成一个exe，生成的exe在子目录dist中。<br>-w表示窗口，无控制台</p>
+<p>3.更改exe图标</p>
+<p>将图片转换为ico格式<br><a href="http://www.bitbug.net/" target="_blank" rel="noopener">http://www.bitbug.net/</a></p>
+<p><code>pyinstaller -F -w -i koi.ico koi.py</code></p>
+<p>koi.ico 需要与koi.py同一目录下，生成dist需要进行刷新</p>
+<h2 id="异常处理"><a href="#异常处理" class="headerlink" title="异常处理"></a>异常处理</h2><h3 id="什么是异常？"><a href="#什么是异常？" class="headerlink" title="什么是异常？"></a>什么是异常？</h3><p>因为在程序执行时，异常报错提示可能会影响到输出结果的显示，此时就可以使用try:…except:…进行异常处理，将错误直接输出打印，而不是以报错的形式显示。</p>
+<p><img src="https://img-blog.csdn.net/20180822105859324?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTIwODA2ODY=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="img"></p>
+<h2 id="args是什么鬼"><a href="#args是什么鬼" class="headerlink" title="*args是什么鬼"></a>*args是什么鬼</h2><p>来自：<a href="https://www.cnblogs.com/cwind/p/8996000.html" target="_blank" rel="noopener">https://www.cnblogs.com/cwind/p/8996000.html</a></p>
+<p>让我们通过以下5步来理解： </p>
+<ol>
+<li>通过一个函数调用来理解’*’的作用 </li>
+<li>通过一个函数的定义来理解’*args’的含义 </li>
+<li>通过一个函数的调用来理解’**’的作用 </li>
+<li>通过一个函数的定义来解’**kwargs’的含义 </li>
+<li>通过一个应用实例来说明’args’,’kwargs’应用场景以及为何要使用它</li>
+</ol>
+<h2 id="通过一个函数调用来理解’-’的作用"><a href="#通过一个函数调用来理解’-’的作用" class="headerlink" title="通过一个函数调用来理解’*’的作用"></a>通过一个函数调用来理解’*’的作用</h2><p>定义一个含三个位置参数的函数”fun”.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="function"><span class="keyword">def</span> <span class="title">fun</span><span class="params">(a,b,c)</span>:</span></span><br><span class="line"><span class="meta">... </span>    <span class="keyword">print</span> a,b,c</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+
+<p>传三个位置参数调用此函数</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>fun(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>)</span><br><span class="line"><span class="number">1</span> <span class="number">2</span> <span class="number">3</span>       <span class="comment">#输出</span></span><br></pre></td></tr></table></figure>
+
+<p>可以看到出入三个位置参数调用此函数，会打印出三个参数</p>
+<p>现在我们定义一个含三个整数的数列，并使用’*’</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>l = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>fun(*l)</span><br><span class="line"><span class="number">1</span> <span class="number">2</span> <span class="number">3</span>       <span class="comment">#输出</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="‘-’-做了什么？"><a href="#‘-’-做了什么？" class="headerlink" title="‘*’ 做了什么？"></a>‘*’ 做了什么？</h3><p>它拆开数列’l’的数值作为位置参数，并吧这些位置参数传给函数’fun’来调用。</p>
+<p>因此拆数列、传位置参数意味着fun(*l)与fun(1,2,3)是等效的，因为l = [1,2,3]。</p>
+<p>试着数列中使用其他数值</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>l = [<span class="number">4</span>,<span class="number">8</span>,<span class="number">0</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>fun(*l)</span><br><span class="line"><span class="number">4</span> <span class="number">8</span> <span class="number">0</span>       <span class="comment">#输出</span></span><br></pre></td></tr></table></figure>
+
+<p>接下来我们试着在数列中放四个数值，调用函数会出现什么情况呢</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>l = [<span class="number">3</span>,<span class="number">6</span>,<span class="number">9</span>,<span class="number">1</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>fun(*l)</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File <span class="string">"&lt;stdin&gt;"</span>, line <span class="number">1</span>, <span class="keyword">in</span> &lt;module&gt;</span><br><span class="line">TypeError: fun() takes exactly <span class="number">3</span> arguments (<span class="number">4</span> given)</span><br></pre></td></tr></table></figure>
+
+<p>在这次调用中我们并没有得到合适的结果，触发了TypeWrror异常。很容易看到错误内容”fun() takes exactly 3 arguments (4 given)”.</p>
+<h3 id="为什么会发生这种情况呢？"><a href="#为什么会发生这种情况呢？" class="headerlink" title="为什么会发生这种情况呢？"></a>为什么会发生这种情况呢？</h3><p>数列’l’含有四个数值.因此，我们试图调用’fun(<em>l)’，’l’中数值拆开传给函数fun作为位置参数。但是，’l’中有四个数值，调用’fun(</em>l)’相当于调用’fun(3,6,9,1)’,又因为函数’fun’定义中只用三个位置参数，因此我们得到这个错误。同理，同样的步骤，数列’l’中有两个数值情况，注意error内容。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>l = [<span class="number">7</span>,<span class="number">4</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>fun(*l)</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File <span class="string">"&lt;stdin&gt;"</span>, line <span class="number">1</span>, <span class="keyword">in</span> &lt;module&gt;</span><br><span class="line">TypeError: fun() takes exactly <span class="number">3</span> arguments (<span class="number">2</span> given)</span><br></pre></td></tr></table></figure>
+
+<p>‘*l’与位置参数混合使用</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>fun(<span class="number">23</span>, *l)</span><br><span class="line"><span class="number">23</span> <span class="number">7</span> <span class="number">4</span></span><br></pre></td></tr></table></figure>
+
+<p>在这里，我们给出一个位置参数23，和从数列’l’拆除的两个数值7和4，因此三个参数23,7和4传给了函数’fun’</p>
+<h2 id="python中全局变量与局部变量"><a href="#python中全局变量与局部变量" class="headerlink" title="python中全局变量与局部变量"></a>python中全局变量与局部变量</h2><ul>
+<li>局部变量就是定义在一个函数体内部的变量</li>
+<li>全局变量是定义在外面的变量</li>
 </ul>
-<h2 id="常用问题和解答"><a href="#常用问题和解答" class="headerlink" title="常用问题和解答"></a>常用问题和解答</h2><p>1、为什么屏幕显示信息，显示一下就消失了。</p>
-<p>答：</p>
-<p>因为KOI并没有跑起一个系统，因此，屏幕画面跟根据摄像头数据不断刷新的，因此字符串显示一瞬间后，就会消失 。KOI屏幕只是作为摄像头的的一个观察窗口。如果想信息长时间显示。可以另接一个I2C的OLED屏</p>
-<p>2、为什么我重新打开电源，按按键A，B，为什么没有反应？</p>
-<p>答：</p>
-<p>KOI鲤鱼魔块初始化启动是需要时间，明显比Microbit慢。Microbit的初始化程序已经跑完了，KOI还没初始化。因此按按键A没有反应</p>
-<p><strong>解决办法：</strong>打开电源后，等待KOI屏幕启动完毕后。重新按下Microbit背后的Reset按键，让Microbit重新开始运行（秘诀即让KOI魔块先运行起来，再让Microbit进行运行）。</p>
+<p>比如：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a = 1</span><br><span class="line">def f():</span><br><span class="line">    b = 2</span><br></pre></td></tr></table></figure>
+
+<h2 id="学习参考链接："><a href="#学习参考链接：" class="headerlink" title="学习参考链接："></a>学习参考链接：</h2><p><a href="https://www.cnblogs.com/anita-harbour/tag/Tkinter/" target="_blank" rel="noopener">https://www.cnblogs.com/anita-harbour/tag/Tkinter/</a></p>
+<p><a href="https://blog.csdn.net/qq_28759809/article/details/103618183" target="_blank" rel="noopener">https://blog.csdn.net/qq_28759809/article/details/103618183</a></p>
 
           
         
@@ -584,7 +612,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://smfox10.github.io/2020/01/29/KOI04/">
+    <link itemprop="mainEntityOfPage" href="https://smfox10.github.io/2020/01/26/捣鼓Nodemcu03-timer时间模块/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="CCFIVE">
@@ -604,7 +632,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2020/01/29/KOI04/" class="post-title-link" itemprop="url">KOI03</a>
+                <a href="/2020/01/26/捣鼓Nodemcu03-timer时间模块/" class="post-title-link" itemprop="url">捣鼓Nodemcu03-timer时间模块</a>
               
             
           </h1>
@@ -632,7 +660,7 @@
                 
               
 
-              <time title="创建时间：2020-01-29 16:05:45" itemprop="dateCreated datePublished" datetime="2020-01-29T16:05:45+08:00">2020-01-29</time>
+              <time title="创建时间：2020-01-26 21:58:29" itemprop="dateCreated datePublished" datetime="2020-01-26T21:58:29+08:00">2020-01-26</time>
             
 
             
@@ -649,7 +677,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2020-01-30 16:13:51" itemprop="dateModified" datetime="2020-01-30T16:13:51+08:00">2020-01-30</time>
+                <time title="修改时间：2020-01-27 15:35:18" itemprop="dateModified" datetime="2020-01-27T15:35:18+08:00">2020-01-27</time>
               
             
           </span>
@@ -666,1175 +694,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/机械/" itemprop="url" rel="index"><span itemprop="name">机械</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-symbolscount">
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">本文字数：</span>
-                
-                <span title="本文字数">2.5k</span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">4 分钟</span>
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="线条检测追踪"><a href="#线条检测追踪" class="headerlink" title="线条检测追踪"></a>线条检测追踪</h1><p>线条追踪一般用于小车视觉巡线。</p>
-<h2 id="Robotbit硬件接线"><a href="#Robotbit硬件接线" class="headerlink" title="Robotbit硬件接线"></a>Robotbit硬件接线</h2><p>这里以Robotbit为例，当然你也可以用Powerbrick，Powerbrick接线会更简单些，而且不会接反。</p>
-<p>电源正负极切勿接反！</p>
-<p>电源正负极切勿接反！</p>
-<p>电源正负极切勿接反！</p>
-<p>接线附图所示，请再三确认后！再打开电源！</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI04/05.png" alt></p>
-<h2 id="打开Robotbit电源"><a href="#打开Robotbit电源" class="headerlink" title="打开Robotbit电源"></a>打开Robotbit电源</h2><p>打开电源后，锦鲤魔块就会亮起来</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI04/06.png" alt></p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI04/07.png" alt></p>
-<h2 id="OLED接线"><a href="#OLED接线" class="headerlink" title="OLED接线"></a>OLED接线</h2><p>这里使用了0.96寸的OLED</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI04/03.png" alt></p>
-<h2 id="编写线条追踪程序"><a href="#编写线条追踪程序" class="headerlink" title="编写线条追踪程序"></a>编写线条追踪程序</h2><p>请自行加载</p>
-<p>KOI的插件：<a href="https://github.com/KittenBot/pxt-koi" target="_blank" rel="noopener">https://github.com/KittenBot/pxt-koi</a></p>
-<p>OLED的插件：<a href="https://github.com/KittenBot/pxt-oled" target="_blank" rel="noopener">https://github.com/KittenBot/pxt-oled</a></p>
-<p>加载OLED的插件，用于显示线条的两个端点的坐标（x1，y1）和（x2，y2）</p>
-<p>编写程序：</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI04/022.png" alt></p>
-<h2 id="按键A触发颜色校准"><a href="#按键A触发颜色校准" class="headerlink" title="按键A触发颜色校准"></a>按键A触发颜色校准</h2><p>巡线追踪与颜色追踪类似，都是需要先进行<strong>颜色校准</strong></p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI04/02.png" alt></p>
-<p>颜色校准触发后，AI模块会出现一个绿色小方块在屏幕中央，把要识别的颜色放在小方块处（这里放置了一支黄色的笔），等待一会，颜色校准成功，即可。</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI04/04.png" alt></p>
-<h2 id="先进行颜色校准再进行颜色追踪"><a href="#先进行颜色校准再进行颜色追踪" class="headerlink" title="先进行颜色校准再进行颜色追踪"></a>先进行颜色校准再进行颜色追踪</h2><p>颜色追踪前必须先校准：</p>
-<p>因此这里设置了标志位变量flag。程序初始化时间flag设置为假，当颜色校准后设置为真，在循环中检测，当flag检测为真时，启动颜色追踪</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI04/05.png" alt></p>
-<h2 id="程序结果"><a href="#程序结果" class="headerlink" title="程序结果"></a>程序结果</h2><p>把程序下载到Microbit上</p>
-<p>把纯色的直线物体（如水彩笔）放到镜头前，按下按键A进入校准模式</p>
-<p>校准成功后，可以看到颜色已经可以进行追踪了。</p>
-<h2 id="常用问题和解答"><a href="#常用问题和解答" class="headerlink" title="常用问题和解答"></a>常用问题和解答</h2><p>1，为什么我重新打开电源，按按键A，不能进入颜色校准？</p>
-<p>答：KOI鲤鱼魔块初始化启动是需要时间，明显比Microbit慢。Microbit的初始化程序（串口指令控制加载Yolo模型）已经跑完了，KOI还没初始化。因此按按键A没有反应</p>
-<p><strong>解决办法：</strong>打开电源后，重新按下Microbit背后的Reset按键，让Microbit重新开始运行（秘诀即让KOI魔块先运行起来，再让Microbit进行运行）。</p>
-<p>2、KOI鲤鱼魔块我直接3V电源可以吗？</p>
-<p>答：不行，必须要接5V！</p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://smfox10.github.io/2020/01/29/KOI09/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="CCFIVE">
-      <meta itemprop="description" content="搭个技术博客用于监督自己进行学习~">
-      <meta itemprop="image" content="/images/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="CC喵爱学习">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2020/01/29/KOI09/" class="post-title-link" itemprop="url">KOI03</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2020-01-29 16:05:45" itemprop="dateCreated datePublished" datetime="2020-01-29T16:05:45+08:00">2020-01-29</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2020-02-02 18:02:29" itemprop="dateModified" datetime="2020-02-02T18:02:29+08:00">2020-02-02</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/机械/" itemprop="url" rel="index"><span itemprop="name">机械</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-symbolscount">
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">本文字数：</span>
-                
-                <span title="本文字数">2k</span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">3 分钟</span>
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="机器学习——自定义辨认物体"><a href="#机器学习——自定义辨认物体" class="headerlink" title="机器学习——自定义辨认物体"></a>机器学习——自定义辨认物体</h1><p>大家之前可能已经用过Kittenblock的机器学习5的插件，插件中有特征提取器，可以自定义辨别物体。</p>
-<p>但Kittenblock中的ML5要求是要开着电脑使用的，不能离线。</p>
-<p>KOI锦鲤魔块其中一个功能就是为了解决这个痛点。</p>
-<h2 id="Robotbit硬件接线"><a href="#Robotbit硬件接线" class="headerlink" title="Robotbit硬件接线"></a>Robotbit硬件接线</h2><p>这里以Robotbit为例，当然你也可以用Powerbrick，Powerbrick接线会更简单些，而且不会接反。</p>
-<p>电源正负极切勿接反！</p>
-<p>电源正负极切勿接反！</p>
-<p>电源正负极切勿接反！</p>
-<p>接线附图所示，请再三确认后！再打开电源！</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI09/05.png" alt></p>
-<h2 id="打开Robotbit电源"><a href="#打开Robotbit电源" class="headerlink" title="打开Robotbit电源"></a>打开Robotbit电源</h2><p>打开电源后，锦鲤魔块就会亮起来</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI09/06.png" alt></p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI09/07.png" alt></p>
-<h2 id="装上内存卡"><a href="#装上内存卡" class="headerlink" title="装上内存卡"></a>装上内存卡</h2><p>使用机器学习特征识别，是不需要要求有内存卡。但是你如果想永久保存训练的模型，那你就需要有内存卡了。</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI09/01.png" alt></p>
-<h2 id="编写编写辨认物体程序"><a href="#编写编写辨认物体程序" class="headerlink" title="编写编写辨认物体程序"></a>编写编写辨认物体程序</h2><p>请自行加载</p>
-<p>KOI的插件：<a href="https://github.com/KittenBot/pxt-koi" target="_blank" rel="noopener">https://github.com/KittenBot/pxt-koi</a></p>
-<p>编写程序：</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI09/01.png" alt></p>
-<h2 id="程序结果"><a href="#程序结果" class="headerlink" title="程序结果"></a>程序结果</h2><ul>
-<li>把程序下载到Microbit上</li>
-<li>把需要识别的物体A放在镜头前，按下Microbit的按键A，录入分类1，多按几次，多录入物体的几个角度</li>
-<li>更换物体B，按下Microbit的按键B，录入分类2，多按几次，多录入物体的几个角度</li>
-<li>晃动Microbit，即进入识别模式，当镜头检测到A，Microbit点阵显示1。当镜头检测到B，Microbit点阵显示2</li>
-</ul>
-<h2 id="常用问题和解答"><a href="#常用问题和解答" class="headerlink" title="常用问题和解答"></a>常用问题和解答</h2><p>1，为什么我重新打开电源，按按键A，为什么没有反应？</p>
-<p>答：</p>
-<p>KOI鲤鱼魔块初始化启动是需要时间，明显比Microbit慢。Microbit的初始化程序已经跑完了，KOI还没初始化。因此按按键A没有反应</p>
-<p><strong>解决办法：</strong>打开电源后，等待KOI屏幕启动完毕后。重新按下Microbit背后的Reset按键，让Microbit重新开始运行（秘诀即让KOI魔块先运行起来，再让Microbit进行运行）。</p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://smfox10.github.io/2020/01/29/KOI03/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="CCFIVE">
-      <meta itemprop="description" content="搭个技术博客用于监督自己进行学习~">
-      <meta itemprop="image" content="/images/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="CC喵爱学习">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2020/01/29/KOI03/" class="post-title-link" itemprop="url">KOI03</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2020-01-29 16:05:45" itemprop="dateCreated datePublished" datetime="2020-01-29T16:05:45+08:00">2020-01-29</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2020-01-30 14:57:44" itemprop="dateModified" datetime="2020-01-30T14:57:44+08:00">2020-01-30</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/机械/" itemprop="url" rel="index"><span itemprop="name">机械</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-symbolscount">
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">本文字数：</span>
-                
-                <span title="本文字数">2k</span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">3 分钟</span>
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="颜色检测追踪"><a href="#颜色检测追踪" class="headerlink" title="颜色检测追踪"></a>颜色检测追踪</h1><p>颜色追踪一般用于与机器人交互，或者流水线分拣等。</p>
-<h2 id="Robotbit硬件接线"><a href="#Robotbit硬件接线" class="headerlink" title="Robotbit硬件接线"></a>Robotbit硬件接线</h2><p>这里以Robotbit为例，当然你也可以用Powerbrick，Powerbrick接线会更简单些，而且不会接反。</p>
-<p>电源正负极切勿接反！</p>
-<p>电源正负极切勿接反！</p>
-<p>电源正负极切勿接反！</p>
-<p>接线附图所示，请再三确认后！再打开电源！</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI03/05.png" alt></p>
-<h2 id="打开Robotbit电源"><a href="#打开Robotbit电源" class="headerlink" title="打开Robotbit电源"></a>打开Robotbit电源</h2><p>打开电源后，锦鲤魔块就会亮起来</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI03/06.png" alt></p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI03/07.png" alt></p>
-<h2 id="编写颜色追踪程序"><a href="#编写颜色追踪程序" class="headerlink" title="编写颜色追踪程序"></a>编写颜色追踪程序</h2><p>请自行加载KOI的插件：<a href="https://github.com/KittenBot/pxt-koi" target="_blank" rel="noopener">https://github.com/KittenBot/pxt-koi</a></p>
-<p>编写程序：</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI03/01.png" alt></p>
-<h2 id="按键A触发颜色校准"><a href="#按键A触发颜色校准" class="headerlink" title="按键A触发颜色校准"></a>按键A触发颜色校准</h2><p><img src="//smfox10.github.io/2020/01/29/KOI03/02.png" alt></p>
-<p>颜色校准触发后，AI模块会出现一个小方块在屏幕中央，把要识别的颜色放在小方块处，等待一会，颜色校准成功，即可。</p>
-<h2 id="先进行颜色校准再进行颜色追踪"><a href="#先进行颜色校准再进行颜色追踪" class="headerlink" title="先进行颜色校准再进行颜色追踪"></a>先进行颜色校准再进行颜色追踪</h2><p>颜色追踪前必须先校准：</p>
-<p>因此这里设置了标志位变量flag。程序初始化时间flag设置为假，当颜色校准后设置为真，在循环中检测，当flag检测为真时，启动颜色追踪</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI03/03.png" alt></p>
-<h2 id="程序结果"><a href="#程序结果" class="headerlink" title="程序结果"></a>程序结果</h2><p>把程序下载到Microbit上</p>
-<p>按下按键A进入校准模式</p>
-<p>校准成功后，可以看到颜色已经可以进行追踪了。</p>
-<h2 id="常用问题和解答"><a href="#常用问题和解答" class="headerlink" title="常用问题和解答"></a>常用问题和解答</h2><p>1，为什么我重新打开电源，按按键A，不能进入颜色校准？</p>
-<p>答：KOI鲤鱼魔块初始化启动是需要时间，明显比Microbit慢。Microbit的初始化程序（串口指令控制加载Yolo模型）已经跑完了，KOI还没初始化。因此按按键A没有反应</p>
-<p><strong>解决办法：</strong>打开电源后，重新按下Microbit背后的Reset按键，让Microbit重新开始运行（秘诀即让KOI魔块先运行起来，再让Microbit进行运行）。</p>
-<p>2、KOI鲤鱼魔块我直接3V电源可以吗？</p>
-<p>答：不行，必须要接5V！</p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://smfox10.github.io/2020/01/29/KOI06/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="CCFIVE">
-      <meta itemprop="description" content="搭个技术博客用于监督自己进行学习~">
-      <meta itemprop="image" content="/images/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="CC喵爱学习">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2020/01/29/KOI06/" class="post-title-link" itemprop="url">KOI03</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2020-01-29 16:05:45" itemprop="dateCreated datePublished" datetime="2020-01-29T16:05:45+08:00">2020-01-29</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2020-02-01 15:23:34" itemprop="dateModified" datetime="2020-02-01T15:23:34+08:00">2020-02-01</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/机械/" itemprop="url" rel="index"><span itemprop="name">机械</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-symbolscount">
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">本文字数：</span>
-                
-                <span title="本文字数">2.3k</span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">4 分钟</span>
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="矩形与圆形追踪检测"><a href="#矩形与圆形追踪检测" class="headerlink" title="矩形与圆形追踪检测"></a>矩形与圆形追踪检测</h1><p>矩形与圆形追踪在生活中用得比较少，一般用在食品工业流水线上的视觉分拣与码垛</p>
-<p>Apriltag用于机器视觉中，可以简单理解为是简化版的二维码，具有识别距离远，识别速度快，识别准确的特点。当然随之而来储存的信息远不及二维码。</p>
-<h2 id="Robotbit硬件接线"><a href="#Robotbit硬件接线" class="headerlink" title="Robotbit硬件接线"></a>Robotbit硬件接线</h2><p>这里以Robotbit为例，当然你也可以用Powerbrick，Powerbrick接线会更简单些，而且不会接反。</p>
-<p>电源正负极切勿接反！</p>
-<p>电源正负极切勿接反！</p>
-<p>电源正负极切勿接反！</p>
-<p>接线附图所示，请再三确认后！再打开电源！</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI06/05.png" alt></p>
-<h2 id="打开Robotbit电源"><a href="#打开Robotbit电源" class="headerlink" title="打开Robotbit电源"></a>打开Robotbit电源</h2><p>打开电源后，锦鲤魔块就会亮起来</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI06/06.png" alt></p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI06/07.png" alt></p>
-<h2 id="编写矩形追踪程序"><a href="#编写矩形追踪程序" class="headerlink" title="编写矩形追踪程序"></a>编写矩形追踪程序</h2><p>请自行加载</p>
-<p>KOI的插件：<a href="https://github.com/KittenBot/pxt-koi" target="_blank" rel="noopener">https://github.com/KittenBot/pxt-koi</a></p>
-<p>编写程序：</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI06/01.png" alt></p>
-<h2 id="编写圆形追踪程序"><a href="#编写圆形追踪程序" class="headerlink" title="编写圆形追踪程序"></a>编写圆形追踪程序</h2><p>编写程序：</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI06/02.png" alt></p>
-<h2 id="阈值解释"><a href="#阈值解释" class="headerlink" title="阈值解释"></a>阈值解释</h2><p>以上程序都很简单，唯一需要注意就是，需要自主尝试并调整阈值，阈值越大，识别越难，但是干扰会越少</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI06/03.png" alt></p>
-<h2 id="按键A进行识别"><a href="#按键A进行识别" class="headerlink" title="按键A进行识别"></a>按键A进行识别</h2><p>把程序下载到Microbit上</p>
-<p>把矩形或者圆形放在识别镜头前，保证完全入镜且清晰（废话）</p>
-<p>当按下Microbit的按键A，进行识别，Microbit的点阵屏显示位置。</p>
-<h2 id="如何提高识别率"><a href="#如何提高识别率" class="headerlink" title="如何提高识别率"></a>如何提高识别率</h2><ul>
-<li>保证识别背景比较单调，不能太杂乱</li>
-<li>矩形和圆形应该要有锐利的轮廓</li>
-</ul>
-<h2 id="常用问题和解答"><a href="#常用问题和解答" class="headerlink" title="常用问题和解答"></a>常用问题和解答</h2><p>1、为什么我重新打开电源，按按键A，为什么不会返回结果？</p>
-<p>答：</p>
-<p>可能有两个原因：</p>
-<p>原因1：KOI鲤鱼魔块初始化启动是需要时间，明显比Microbit慢。Microbit的初始化程序（串口指令控制加载Yolo模型）已经跑完了，KOI还没初始化。因此按按键A没有反应</p>
-<p><strong>解决办法：</strong>打开电源后，重新按下Microbit背后的Reset按键，让Microbit重新开始运行（秘诀即让KOI魔块先运行起来，再让Microbit进行运行）。</p>
-<p>原因2：识别的二维码、条形码、Apriltag没有完全入镜，无法识别，或者显示太模糊，无法识别。条形码常规食品袋上的条码太小，一般建议条形码的最小高度不小于3CM。</p>
-<p>2、如何提高识别率</p>
-<p>答：</p>
-<p>调整识别阈值，调整识别环境与调整识别物体。</p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://smfox10.github.io/2020/01/29/KOI07/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="CCFIVE">
-      <meta itemprop="description" content="搭个技术博客用于监督自己进行学习~">
-      <meta itemprop="image" content="/images/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="CC喵爱学习">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2020/01/29/KOI07/" class="post-title-link" itemprop="url">KOI03</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2020-01-29 16:05:45" itemprop="dateCreated datePublished" datetime="2020-01-29T16:05:45+08:00">2020-01-29</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2020-02-02 16:34:17" itemprop="dateModified" datetime="2020-02-02T16:34:17+08:00">2020-02-02</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/机械/" itemprop="url" rel="index"><span itemprop="name">机械</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-symbolscount">
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">本文字数：</span>
-                
-                <span title="本文字数">2k</span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">3 分钟</span>
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="截图拍照与显示"><a href="#截图拍照与显示" class="headerlink" title="截图拍照与显示"></a>截图拍照与显示</h1><p>既然我们的AI模块有摄像头，那么我们能不能做成类似有相似的拍照功能，把图片保存下载来呢？答案当然，可以，而且还能进行图片浏览。</p>
-<h2 id="Robotbit硬件接线"><a href="#Robotbit硬件接线" class="headerlink" title="Robotbit硬件接线"></a>Robotbit硬件接线</h2><p>这里以Robotbit为例，当然你也可以用Powerbrick，Powerbrick接线会更简单些，而且不会接反。</p>
-<p>电源正负极切勿接反！</p>
-<p>电源正负极切勿接反！</p>
-<p>电源正负极切勿接反！</p>
-<p>接线附图所示，请再三确认后！再打开电源！</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI07/05.png" alt></p>
-<h2 id="打开Robotbit电源"><a href="#打开Robotbit电源" class="headerlink" title="打开Robotbit电源"></a>打开Robotbit电源</h2><p>打开电源后，锦鲤魔块就会亮起来</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI07/06.png" alt></p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI07/07.png" alt></p>
-<h2 id="装上内存卡"><a href="#装上内存卡" class="headerlink" title="装上内存卡"></a>装上内存卡</h2><p>截图是保存在内存卡上，因此必须插上。内存卡最大支持16G</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI07/01.png" alt></p>
-<h2 id="编写拍照截图程序"><a href="#编写拍照截图程序" class="headerlink" title="编写拍照截图程序"></a>编写拍照截图程序</h2><p>请自行加载</p>
-<p>KOI的插件：<a href="https://github.com/KittenBot/pxt-koi" target="_blank" rel="noopener">https://github.com/KittenBot/pxt-koi</a></p>
-<p>编写程序：</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI07/03.png" alt></p>
-<h2 id="程序结果"><a href="#程序结果" class="headerlink" title="程序结果"></a>程序结果</h2><ul>
-<li><p>把程序下载到Microbit上</p>
-</li>
-<li><p>按下Microbit的按键A，即可“拍照”</p>
-</li>
-<li><p>按下Microbit的按键B，即可显示刚才拍的图片</p>
-</li>
-</ul>
-<h2 id="改进程序——连续拍照"><a href="#改进程序——连续拍照" class="headerlink" title="改进程序——连续拍照"></a>改进程序——连续拍照</h2><p>上面的程序是拍照一次后就会覆盖，不太符合常人的思维，这里引入变脸。用于以序号形式保存照片。</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI07/02.png" alt></p>
-<p>校准成功后，可以看到颜色已经可以进行追踪了。</p>
-<h2 id="常用问题和解答"><a href="#常用问题和解答" class="headerlink" title="常用问题和解答"></a>常用问题和解答</h2><p>1，为什么我重新打开电源，按按键A，为什么没有反应？</p>
-<p>答：</p>
-<p>KOI鲤鱼魔块初始化启动是需要时间，明显比Microbit慢。Microbit的初始化程序已经跑完了，KOI还没初始化。因此按按键A没有反应</p>
-<p><strong>解决办法：</strong>打开电源后，等待KOI屏幕启动完毕后。重新按下Microbit背后的Reset按键，让Microbit重新开始运行（秘诀即让KOI魔块先运行起来，再让Microbit进行运行）。</p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://smfox10.github.io/2020/01/29/KOI05/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="CCFIVE">
-      <meta itemprop="description" content="搭个技术博客用于监督自己进行学习~">
-      <meta itemprop="image" content="/images/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="CC喵爱学习">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2020/01/29/KOI05/" class="post-title-link" itemprop="url">KOI03</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2020-01-29 16:05:45" itemprop="dateCreated datePublished" datetime="2020-01-29T16:05:45+08:00">2020-01-29</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2020-01-30 17:33:17" itemprop="dateModified" datetime="2020-01-30T17:33:17+08:00">2020-01-30</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/机械/" itemprop="url" rel="index"><span itemprop="name">机械</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/电子/" itemprop="url" rel="index"><span itemprop="name">电子</span></a></span>
 
                 
                 
@@ -1899,37 +759,248 @@
       
         
           
-            <h1 id="二维码、条形码、Apriltag检测"><a href="#二维码、条形码、Apriltag检测" class="headerlink" title="二维码、条形码、Apriltag检测"></a>二维码、条形码、Apriltag检测</h1><p>条形码广泛用于我们生活中，例如产品的识别标签。二维码用于支付场景或者视角场景。</p>
-<p>Apriltag用于机器视觉中，可以简单理解为是简化版的二维码，具有识别距离远，识别速度快，识别准确的特点。当然随之而来储存的信息远不及二维码。</p>
-<h2 id="Robotbit硬件接线"><a href="#Robotbit硬件接线" class="headerlink" title="Robotbit硬件接线"></a>Robotbit硬件接线</h2><p>这里以Robotbit为例，当然你也可以用Powerbrick，Powerbrick接线会更简单些，而且不会接反。</p>
-<p>电源正负极切勿接反！</p>
-<p>电源正负极切勿接反！</p>
-<p>电源正负极切勿接反！</p>
-<p>接线附图所示，请再三确认后！再打开电源！</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI05/05.png" alt></p>
-<h2 id="打开Robotbit电源"><a href="#打开Robotbit电源" class="headerlink" title="打开Robotbit电源"></a>打开Robotbit电源</h2><p>打开电源后，锦鲤魔块就会亮起来</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI05/06.png" alt></p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI05/07.png" alt></p>
-<h2 id="OLED接线"><a href="#OLED接线" class="headerlink" title="OLED接线"></a>OLED接线</h2><p>这里使用了0.96寸的OLED</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI05/03.png" alt></p>
-<h2 id="编写条码识别程序"><a href="#编写条码识别程序" class="headerlink" title="编写条码识别程序"></a>编写条码识别程序</h2><p>请自行加载</p>
-<p>KOI的插件：<a href="https://github.com/KittenBot/pxt-koi" target="_blank" rel="noopener">https://github.com/KittenBot/pxt-koi</a></p>
-<p>OLED的插件：<a href="https://github.com/KittenBot/pxt-oled" target="_blank" rel="noopener">https://github.com/KittenBot/pxt-oled</a></p>
-<p>加载OLED的插件，用于显示线条的两个端点的坐标（x1，y1）和（x2，y2）</p>
-<p>编写程序：</p>
-<p><img src="//smfox10.github.io/2020/01/29/KOI05/01.png" alt></p>
-<h2 id="编写二维码识别程序"><a href="#编写二维码识别程序" class="headerlink" title="编写二维码识别程序"></a>编写二维码识别程序</h2><p><img src="//smfox10.github.io/2020/01/29/KOI05/02.png" alt></p>
-<h2 id="编写Apriltag识别程序"><a href="#编写Apriltag识别程序" class="headerlink" title="编写Apriltag识别程序"></a>编写Apriltag识别程序</h2><p><img src="//smfox10.github.io/2020/01/29/KOI05/03.png" alt></p>
-<h2 id="按键A进行识别"><a href="#按键A进行识别" class="headerlink" title="按键A进行识别"></a>按键A进行识别</h2><p>以上三个程序都是当按键Microbit的按键A，进行识别，OLED显示屏进行结果显示</p>
-<h2 id="程序结果"><a href="#程序结果" class="headerlink" title="程序结果"></a>程序结果</h2><p>把程序下载到Microbit上</p>
-<p>把二维码、条形码、或者Apriltag放在识别镜头前，保证完全入镜且清晰（废话）</p>
-<p>校准成功后，可以看到颜色已经可以进行追踪了。</p>
-<h2 id="常用问题和解答"><a href="#常用问题和解答" class="headerlink" title="常用问题和解答"></a>常用问题和解答</h2><p>1，为什么我重新打开电源，按按键A，为什么不会返回结果？</p>
-<p>答：</p>
-<p>可能有两个原因：</p>
-<p>原因1：KOI鲤鱼魔块初始化启动是需要时间，明显比Microbit慢。Microbit的初始化程序（串口指令控制加载Yolo模型）已经跑完了，KOI还没初始化。因此按按键A没有反应</p>
-<p><strong>解决办法：</strong>打开电源后，重新按下Microbit背后的Reset按键，让Microbit重新开始运行（秘诀即让KOI魔块先运行起来，再让Microbit进行运行）。</p>
-<p>原因2：识别的二维码、条形码、Apriltag没有完全入镜，无法识别，或者显示太模糊，无法识别。条形码常规食品袋上的条码太小，一般建议条形码的最小高度不小于3CM。</p>
+            <h2 id="delay"><a href="#delay" class="headerlink" title="delay"></a>delay</h2><p>led=4</p>
+<p>gpio.mode(led, gpio.OUTPUT)</p>
+<p>while true do<br>    gpio.write(led, gpio.HIGH)<br>    tmr.delay(1000000)<br>    gpio.write(led, gpio.LOW)<br>    tmr.delay(1000000)<br>end</p>
+<p>呼吸灯</p>
+<p>pin=4<br>pwm.setup(pin, 500, 1000)<br>pwm.start(pin) </p>
+<p>while true do<br>    for i=0,1023,1 do<br>    pwm.setduty(pin, i)<br>    tmr.delay(1000)<br>    tmr.wdclr()<br>    end<br>    for i=0,1023,1 do<br>    pwm.setduty(pin, 1023-i)<br>    tmr.delay(1000)<br>    tmr.wdclr()<br>    end</p>
+<p>end</p>
+<h2 id="定时器"><a href="#定时器" class="headerlink" title="定时器"></a>定时器</h2><p>周期函数，也叫闹钟函数，参数说明如下<br> <code>tmr.alarm(id, interval, repeat, function do())</code></p>
+<blockquote>
+<p>id:<br> ——number：0~6，一共可以设置7个周期函数<br> interval：<br> ——number：定时的时间，单位为毫秒<br> repeat:<br> ——<code>0</code>或<code>1</code>，<code>1</code>是重复函数，<code>0</code>是一次性函数<br> function：<br> ——函数名：时间到了需要做的函数</p>
+</blockquote>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">i=<span class="number">0</span></span><br><span class="line">tmr.alarm(<span class="number">0</span>, <span class="number">1000</span>,<span class="number">1</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span></span></span><br><span class="line"><span class="function">  </span></span><br><span class="line"><span class="function">    <span class="title">print</span><span class="params">(tmr.now<span class="params">()</span>)</span></span></span><br><span class="line"><span class="function">    <span class="title">if</span><span class="params">(i&gt;=<span class="number">10</span>)</span><span class="title">then</span></span></span><br><span class="line"><span class="function">        <span class="title">tmr</span>.<span class="title">stop</span><span class="params">(<span class="number">0</span>)</span></span></span><br><span class="line"><span class="function">    <span class="title">end</span></span></span><br><span class="line"><span class="function">    <span class="title">i</span>=<span class="title">i</span>+1</span></span><br><span class="line"><span class="function"><span class="title">end</span>)</span></span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://smfox10.github.io/2020/01/26/捣鼓Nodemcu02-初识Lua/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="CCFIVE">
+      <meta itemprop="description" content="搭个技术博客用于监督自己进行学习~">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CC喵爱学习">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2020/01/26/捣鼓Nodemcu02-初识Lua/" class="post-title-link" itemprop="url">捣鼓Nodemcu02_初识Lua</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2020-01-26 00:12:38" itemprop="dateCreated datePublished" datetime="2020-01-26T00:12:38+08:00">2020-01-26</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2020-01-27 15:35:14" itemprop="dateModified" datetime="2020-01-27T15:35:14+08:00">2020-01-27</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/电子/" itemprop="url" rel="index"><span itemprop="name">电子</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">7.4k</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">12 分钟</span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>如果已经有C语言基础的朋友，会发现Lua真的很简单。这里直接引用土神的笔记。原文链接：<a href="https://www.jianshu.com/p/5927eae240ba" target="_blank" rel="noopener">https://www.jianshu.com/p/5927eae240ba</a></p>
+<h2 id="注意的地方"><a href="#注意的地方" class="headerlink" title="注意的地方"></a>注意的地方</h2><p>部分与C语言不一样</p>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">不要在结尾使用                 ；</span><br><span class="line">数组的第一个元素下标       是<span class="number">1</span>不是<span class="number">0</span></span><br><span class="line">----------------------------------------------------------------------</span><br><span class="line">不等于                       ~=</span><br><span class="line">逻辑与                      <span class="keyword">and</span></span><br><span class="line">逻辑或                       <span class="keyword">or</span></span><br><span class="line">逻辑非                      <span class="keyword">not</span></span><br><span class="line">---------------------------------------------------------------------</span><br><span class="line">注释用                       --</span><br><span class="line">空值                        <span class="literal">nil</span></span><br><span class="line">连字符                       ..</span><br><span class="line">所有代码块需要结束标志        <span class="keyword">end</span></span><br><span class="line">--------------------------------------------------------------------</span><br><span class="line">不能使用              i++  i--  ++i   --i</span><br></pre></td></tr></table></figure>
+
+<h2 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h2><p>依然是熟悉的</p>
+<p>print(“XXX”)</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">"hello world!"</span>)</span><br><span class="line">----输出hello world!</span><br><span class="line"><span class="built_in">print</span>(<span class="string">"5+3="</span>..(5+3))</span><br><span class="line">----输出5+3=8</span><br></pre></td></tr></table></figure>
+
+<h2 id="if"><a href="#if" class="headerlink" title="if"></a>if</h2><p>if () then</p>
+<p>end</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">i=6</span><br><span class="line"><span class="keyword">if</span> (i&lt;7) <span class="keyword">then</span> </span><br><span class="line">    <span class="built_in">print</span>(<span class="string">"yes!"</span>)</span><br><span class="line">end </span><br><span class="line">--输出yes！</span><br></pre></td></tr></table></figure>
+
+<h2 id="if-else"><a href="#if-else" class="headerlink" title="if-else"></a>if-else</h2><p>if () then</p>
+<p>else</p>
+<p>end</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">i=9</span><br><span class="line"><span class="keyword">if</span> (i&lt;5) <span class="keyword">then</span> </span><br><span class="line">    <span class="built_in">print</span>(<span class="string">"yes!"</span>)</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">"no!"</span>)</span><br><span class="line">end </span><br><span class="line">--输出no！</span><br></pre></td></tr></table></figure>
+
+<h2 id="elseif"><a href="#elseif" class="headerlink" title="elseif"></a>elseif</h2><p>if () then</p>
+<p>elseif () then</p>
+<p>end</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">i=<span class="number">7</span></span><br><span class="line"><span class="keyword">if</span>  (i&lt;<span class="number">5</span>)    then </span><br><span class="line">    <span class="keyword">print</span>(<span class="string">"i&lt;5"</span>)</span><br><span class="line"><span class="keyword">elseif</span> (i&gt;<span class="number">6</span>) then </span><br><span class="line">   <span class="keyword">print</span>(<span class="string">"i&gt;6"</span>)</span><br><span class="line">end</span><br><span class="line">--输出i&gt;<span class="number">6</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="while"><a href="#while" class="headerlink" title="while"></a>while</h2><p>while () do</p>
+<p>end</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">i=5</span><br><span class="line"><span class="keyword">while</span> (i&gt;0) <span class="keyword">do</span> </span><br><span class="line">    <span class="built_in">print</span>(i)</span><br><span class="line">    i=i-1</span><br><span class="line">end</span><br><span class="line">--输出</span><br><span class="line">5</span><br><span class="line">4</span><br><span class="line">3</span><br><span class="line">2</span><br><span class="line">1</span><br></pre></td></tr></table></figure>
+
+<h2 id="for循环"><a href="#for循环" class="headerlink" title="for循环"></a>for循环</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i=1,5,1 <span class="keyword">do</span> </span><br><span class="line">    <span class="built_in">print</span>(i)</span><br><span class="line">end</span><br><span class="line">--输出</span><br><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td></tr></table></figure>
+
 
           
         
@@ -1986,7 +1057,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用02——人脸检测/">
+    <link itemprop="mainEntityOfPage" href="https://smfox10.github.io/2020/01/25/捣鼓Nodemcu01-固件烧写/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="CCFIVE">
@@ -2006,7 +1077,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2020/01/28/KOI魔块在Makecode中使用02——人脸检测/" class="post-title-link" itemprop="url">KOI魔块在Makecode中使用02——人脸检测</a>
+                <a href="/2020/01/25/捣鼓Nodemcu01-固件烧写/" class="post-title-link" itemprop="url">捣鼓Nodemcu01_固件烧写</a>
               
             
           </h1>
@@ -2034,7 +1105,7 @@
                 
               
 
-              <time title="创建时间：2020-01-28 15:42:24" itemprop="dateCreated datePublished" datetime="2020-01-28T15:42:24+08:00">2020-01-28</time>
+              <time title="创建时间：2020-01-25 17:56:51" itemprop="dateCreated datePublished" datetime="2020-01-25T17:56:51+08:00">2020-01-25</time>
             
 
             
@@ -2051,7 +1122,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2020-01-29 16:17:31" itemprop="dateModified" datetime="2020-01-29T16:17:31+08:00">2020-01-29</time>
+                <time title="修改时间：2020-01-26 00:10:01" itemprop="dateModified" datetime="2020-01-26T00:10:01+08:00">2020-01-26</time>
               
             
           </span>
@@ -2068,7 +1139,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/机械/" itemprop="url" rel="index"><span itemprop="name">机械</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/电子/" itemprop="url" rel="index"><span itemprop="name">电子</span></a></span>
 
                 
                 
@@ -2097,7 +1168,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">2.2k</span>
+                <span title="本文字数">2.6k</span>
               
 
               
@@ -2133,30 +1204,37 @@
       
         
           
-            <h1 id="人脸检测追踪"><a href="#人脸检测追踪" class="headerlink" title="人脸检测追踪"></a>人脸检测追踪</h1><p>人脸检测追踪在安防情况下常常被用到。本节教程教大家如何将人脸位置反映在Microbit的点阵上</p>
-<h2 id="Robotbit硬件接线"><a href="#Robotbit硬件接线" class="headerlink" title="Robotbit硬件接线"></a>Robotbit硬件接线</h2><p>这里以Robotbit为例，当然你也可以用Powerbrick，Powerbrick接线会更简单些，而且不会接反。</p>
-<p>电源正负极切勿接反！</p>
-<p>电源正负极切勿接反！</p>
-<p>电源正负极切勿接反！</p>
-<p>接线附图所示，请再三确认后！再打开电源！</p>
-<p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用02——人脸检测/05.png" alt></p>
-<h2 id="打开Robotbit电源"><a href="#打开Robotbit电源" class="headerlink" title="打开Robotbit电源"></a>打开Robotbit电源</h2><p>打开电源后，锦鲤魔块就会亮起来</p>
-<p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用02——人脸检测/06.png" alt></p>
-<p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用02——人脸检测/07.png" alt></p>
-<h2 id="编写人脸检测追踪程序"><a href="#编写人脸检测追踪程序" class="headerlink" title="编写人脸检测追踪程序"></a>编写人脸检测追踪程序</h2><p>请自行加载KOI的插件：<a href="https://github.com/KittenBot/pxt-koi" target="_blank" rel="noopener">https://github.com/KittenBot/pxt-koi</a></p>
-<p>编写程序：</p>
-<p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用02——人脸检测/01.png" alt></p>
-<h2 id="程序原理"><a href="#程序原理" class="headerlink" title="程序原理"></a>程序原理</h2><p>在无限循环中放入人脸追踪检测，当检测到人脸，调用人脸函数，人脸函数返回人脸坐标xy</p>
-<p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用02——人脸检测/03.png" alt></p>
-<h2 id="程序结果"><a href="#程序结果" class="headerlink" title="程序结果"></a>程序结果</h2><p>把程序下载到Microbit上，可得到结果，可以看到Microbit的点阵随着人脸的移动而移动</p>
-<p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用02——人脸检测/04.png" alt></p>
-<h2 id="改变点阵的映射方向"><a href="#改变点阵的映射方向" class="headerlink" title="改变点阵的映射方向"></a>改变点阵的映射方向</h2><p>在某些情况下，如果你想改变运动方向，将“低至4至高0”更改为“低至0至高4”</p>
-<p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用02——人脸检测/02.png" alt></p>
-<h2 id="常用问题和解答"><a href="#常用问题和解答" class="headerlink" title="常用问题和解答"></a>常用问题和解答</h2><p>1，为什么我重新打开电源，模块屏幕显示“Yolo not loaded”，且卡住了？每次都能重现</p>
-<p>答：KOI鲤鱼魔块初始化启动是需要时间，明显比Microbit慢。Microbit的初始化程序（串口指令控制加载Yolo模型）已经跑完了，KOI还没初始化。所以屏幕会有报错信息。</p>
-<p><strong>解决办法：</strong>打开电源后，重新按下Microbit背后的Reset按键，让Microbit重新开始运行（秘诀即让KOI魔块先运行起来，再让Microbit进行运行）。</p>
-<p>2、KOI鲤鱼魔块我直接3V电源可以吗？</p>
-<p>答：不行，必须要接5V！</p>
+            <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>春节假期，不能外出，武汉加油！</p>
+<p>偶尔在B站刷到ESP8266的视频教程，这个模块在我们程序猿调教下已经用了很多，但是直接用普通模块还是没有亲身经历过。要和程序猿“和平”沟通，那自己还是得要多学习，跟上节奏才可以。</p>
+<p>这里感谢B站UP主：土神121</p>
+<p>这里学的教程都是跟着他的视频一步一步做下来，好记性不如烂笔头。</p>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>链接：<a href="https://pan.baidu.com/s/1mdI6iD4J9bLlBvbdE7CX3g" target="_blank" rel="noopener">https://pan.baidu.com/s/1mdI6iD4J9bLlBvbdE7CX3g</a><br>提取码：l548</p>
+<p><img src="//smfox10.github.io/2020/01/25/捣鼓Nodemcu01-固件烧写/01.png" alt></p>
+<h2 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h2><p>首先确认你的硬件是Nodemcu，我手上的的是CP2102版本，淘宝上还有便宜一些的是CH340，这两个版本都可以。</p>
+<p><img src="//smfox10.github.io/2020/01/25/捣鼓Nodemcu01-固件烧写/02.png" alt></p>
+<h2 id="安装驱动"><a href="#安装驱动" class="headerlink" title="安装驱动"></a>安装驱动</h2><p>插上USB，如果你的电脑是完整版本，电脑会自动提示你安装CP2102或者CH340。如果电脑没有提示安装成功。那么你自己就需要自行安装驱动。土神的资料包中都已经包含了，对应安装即可。</p>
+<p><img src="//smfox10.github.io/2020/01/25/捣鼓Nodemcu01-固件烧写/03.png" alt></p>
+<h2 id="烧写AT固件"><a href="#烧写AT固件" class="headerlink" title="烧写AT固件"></a>烧写AT固件</h2><p>烧写AT固件重置单片机里面的储存数据，避免当你使用lua语言编程的时候遇到奇葩的结果。</p>
+<p>选择烧写软件</p>
+<p><img src="//smfox10.github.io/2020/01/25/捣鼓Nodemcu01-固件烧写/04.png" alt></p>
+<p><img src="//smfox10.github.io/2020/01/25/捣鼓Nodemcu01-固件烧写/05.png" alt></p>
+<p>如果你用的和我一样的主控板，记得选择32M的版本（一般都是32M）</p>
+<p><img src="//smfox10.github.io/2020/01/25/捣鼓Nodemcu01-固件烧写/06.png" alt></p>
+<p>烧写完成后，打开AT调试软件</p>
+<p><img src="//smfox10.github.io/2020/01/25/捣鼓Nodemcu01-固件烧写/07.png" alt></p>
+<p>连接串口，点击板子上的Reset，发送AT，如果AT固件烧写正常，会返回一个OK</p>
+<p><img src="//smfox10.github.io/2020/01/25/捣鼓Nodemcu01-固件烧写/08.png" alt></p>
+<h2 id="烧写NodeMCU固件"><a href="#烧写NodeMCU固件" class="headerlink" title="烧写NodeMCU固件"></a>烧写NodeMCU固件</h2><p>选择软件</p>
+<p><img src="//smfox10.github.io/2020/01/25/捣鼓Nodemcu01-固件烧写/09.png" alt></p>
+<p>点击Flash</p>
+<p><img src="//smfox10.github.io/2020/01/25/捣鼓Nodemcu01-固件烧写/10.png" alt></p>
+<p>速度比烧写AT快多了</p>
+<p><img src="//smfox10.github.io/2020/01/25/捣鼓Nodemcu01-固件烧写/11.png" alt></p>
+<h2 id="安装Java环境"><a href="#安装Java环境" class="headerlink" title="安装Java环境"></a>安装Java环境</h2><p>一般电脑都没有Java环境，而运行NodeMCU的编程软件是基于它的，需要提前安装。</p>
+<p><img src="//smfox10.github.io/2020/01/25/捣鼓Nodemcu01-固件烧写/12.png" alt></p>
+<h2 id="运行NodeMCU软件"><a href="#运行NodeMCU软件" class="headerlink" title="运行NodeMCU软件"></a>运行NodeMCU软件</h2><p><img src="//smfox10.github.io/2020/01/25/捣鼓Nodemcu01-固件烧写/13.png" alt></p>
+<p>点击连接后，按下板子上的Reset按钮，返回对应的信息，即NodeMCU固件成功运行了。</p>
+<p><img src="//smfox10.github.io/2020/01/25/捣鼓Nodemcu01-固件烧写/14.png" alt></p>
 
           
         
@@ -2213,7 +1291,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用01——加载插件/">
+    <link itemprop="mainEntityOfPage" href="https://smfox10.github.io/2019/09/22/谷歌成长01写好项目章程/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="CCFIVE">
@@ -2233,7 +1311,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2020/01/28/KOI魔块在Makecode中使用01——加载插件/" class="post-title-link" itemprop="url">KOI魔块在Makecode中使用01——加载插件</a>
+                <a href="/2019/09/22/谷歌成长01写好项目章程/" class="post-title-link" itemprop="url">谷歌成长01写好项目章程</a>
               
             
           </h1>
@@ -2261,7 +1339,7 @@
                 
               
 
-              <time title="创建时间：2020-01-28 14:51:54 / 修改时间：15:38:58" itemprop="dateCreated datePublished" datetime="2020-01-28T14:51:54+08:00">2020-01-28</time>
+              <time title="创建时间：2019-09-22 16:05:37 / 修改时间：16:13:32" itemprop="dateCreated datePublished" datetime="2019-09-22T16:05:37+08:00">2019-09-22</time>
             
 
             
@@ -2283,7 +1361,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/机械/" itemprop="url" rel="index"><span itemprop="name">机械</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/读书/" itemprop="url" rel="index"><span itemprop="name">读书</span></a></span>
 
                 
                 
@@ -2312,231 +1390,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">3.1k</span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">5 分钟</span>
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="打开Makecode"><a href="#打开Makecode" class="headerlink" title="打开Makecode"></a>打开Makecode</h2><p>可以使用在线版本或者离线版本的Makecode</p>
-<p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用01——加载插件/01.png" alt></p>
-<h2 id="加载插件"><a href="#加载插件" class="headerlink" title="加载插件"></a>加载插件</h2><p>粘贴连接：<a href="https://github.com/KittenBot/pxt-koi" target="_blank" rel="noopener">https://github.com/KittenBot/pxt-koi</a></p>
-<p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用01——加载插件/02.png" alt></p>
-<p>KOI插件成功加载</p>
-<p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用01——加载插件/03.png" alt></p>
-<h2 id="连接初始化"><a href="#连接初始化" class="headerlink" title="连接初始化"></a>连接初始化</h2><p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用01——加载插件/04.png" alt></p>
-<p>第一个积木针对是Robotbit或者其它Microbit扩展板</p>
-<p>第二个积木针对是能量魔块的Armourbit</p>
-<h2 id="ML5分类器"><a href="#ML5分类器" class="headerlink" title="ML5分类器"></a>ML5分类器</h2><p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用01——加载插件/05.png" alt></p>
-<p>ML5分类器用于自定义学习特定的物体或者场景等等</p>
-<h2 id="截图与显示"><a href="#截图与显示" class="headerlink" title="截图与显示"></a>截图与显示</h2><p>使用此功能前，要求TF内存卡必须已经插在AI魔块上</p>
-<p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用01——加载插件/06.png" alt></p>
-<h2 id="显示信息"><a href="#显示信息" class="headerlink" title="显示信息"></a>显示信息</h2><p>在屏幕上显示信息，因为屏幕是不断刷新状态，因此显示信息只是一瞬间就会消失了</p>
-<p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用01——加载插件/07.png" alt></p>
-<h2 id="设置屏幕显示"><a href="#设置屏幕显示" class="headerlink" title="设置屏幕显示"></a>设置屏幕显示</h2><p>前置与后置两种选择</p>
-<p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用01——加载插件/08.png" alt></p>
-<h2 id="圆形追踪"><a href="#圆形追踪" class="headerlink" title="圆形追踪"></a>圆形追踪</h2><p>阈值越大，排除干扰越强，但阈值太大，圆形检测会越难。</p>
-<p>x与y为检测圆形在屏幕上的横纵坐标，r为圆形半径。</p>
-<p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用01——加载插件/09.png" alt></p>
-<h2 id="矩形追踪"><a href="#矩形追踪" class="headerlink" title="矩形追踪"></a>矩形追踪</h2><p>与圆形追踪功能同理</p>
-<p>w与h为检测矩形的长宽</p>
-<p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用01——加载插件/10.png" alt></p>
-<h2 id="颜色巡线与追踪"><a href="#颜色巡线与追踪" class="headerlink" title="颜色巡线与追踪"></a>颜色巡线与追踪</h2><p>颜色巡线与追踪前，需要颜色校准</p>
-<p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用01——加载插件/11.png" alt></p>
-<h2 id="二维码"><a href="#二维码" class="headerlink" title="二维码"></a>二维码</h2><p>扫描检测二维码，返回二维码结果</p>
-<p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用01——加载插件/12.png" alt></p>
-<h2 id="条形码"><a href="#条形码" class="headerlink" title="条形码"></a>条形码</h2><p>扫描检测条形码，返回条形码结果</p>
-<p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用01——加载插件/13.png" alt></p>
-<h2 id="Apriltag"><a href="#Apriltag" class="headerlink" title="Apriltag"></a>Apriltag</h2><p>Apriltag简单理解为简化版的二维码，Apriltag还能监测出坐标</p>
-<p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用01——加载插件/14.png" alt></p>
-<h2 id="人脸模型yolo检测"><a href="#人脸模型yolo检测" class="headerlink" title="人脸模型yolo检测"></a>人脸模型yolo检测</h2><p>检测人脸，返回人脸的坐标</p>
-<p><img src="//smfox10.github.io/2020/01/28/KOI魔块在Makecode中使用01——加载插件/15.png" alt></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://smfox10.github.io/2020/01/28/KOI模块接线/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="CCFIVE">
-      <meta itemprop="description" content="搭个技术博客用于监督自己进行学习~">
-      <meta itemprop="image" content="/images/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="CC喵爱学习">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2020/01/28/KOI模块接线/" class="post-title-link" itemprop="url">KOI模块接线</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2020-01-28 12:06:36 / 修改时间：14:50:25" itemprop="dateCreated datePublished" datetime="2020-01-28T12:06:36+08:00">2020-01-28</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/机械/" itemprop="url" rel="index"><span itemprop="name">机械</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-symbolscount">
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">本文字数：</span>
-                
-                <span title="本文字数">517</span>
+                <span title="本文字数">401</span>
               
 
               
@@ -2572,13 +1426,10 @@
       
         
           
-            <h2 id="与能量魔块Armourbit接线"><a href="#与能量魔块Armourbit接线" class="headerlink" title="与能量魔块Armourbit接线"></a>与能量魔块Armourbit接线</h2><ul>
-<li>推荐新手使用Armourbit，KOI模块4PIN接口设计恰好与能量魔块体系一致，无需担心防反接。</li>
-<li>还需要从电池盒的USB接口引出5V电源，因为Armourbit上只有3.3V，不足以供起KOI锦鲤模块（内含wifi芯片与AI芯片对电流要求很高）</li>
-</ul>
-<p>【接线图】</p>
-<h2 id="与Robotbit接线"><a href="#与Robotbit接线" class="headerlink" title="与Robotbit接线"></a>与Robotbit接线</h2><p>采用能量魔块4PIN转杜邦线，分别接在Robotbit上的 GND、5V、P2、P1</p>
-<p>因为Robotbit上已经有5V电源，因此KOI的USB口无需外部电源供电了。如需长时间工作，建议USB外接5V电源，以保证工作效果。</p>
+            <h2 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h2><p>偶尔在一个公众号上看到推荐谷歌成长的小程序。看了下干货很多，有很多课程值得学习。</p>
+<p>今天就开始第一篇——写好项目章程，跟我的工作息息相关。</p>
+<p>写好项目章程是以一个收留猫而建大厦的故事进行展开，小程序中已经提炼得很简洁，这里我已思维导图的形式进行学习归纳。</p>
+<h2 id="思维导读"><a href="#思维导读" class="headerlink" title="思维导读"></a>思维导读</h2><p><img src="//smfox10.github.io/2019/09/22/谷歌成长01写好项目章程/%E9%A1%B9%E7%9B%AE%E7%AB%A0%E7%A8%8B.png" alt></p>
 
           
         
@@ -2623,10 +1474,6 @@
   </section>
 
   
-  <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
-  </nav>
-
 
 
           </div>
@@ -2668,7 +1515,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">29</span>
+                    <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -2691,11 +1538,7 @@
                     
                       
                     
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">5</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -2724,19 +1567,7 @@
                     
                       
                     
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">12</span>
+                    <span class="site-state-item-count">6</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -2790,7 +1621,7 @@
       <i class="fa fa-area-chart"></i>
     </span>
     
-    <span title="站点总字数">19k</span>
+    <span title="站点总字数">5k</span>
   
 
   
@@ -2799,7 +1630,7 @@
       <i class="fa fa-coffee"></i>
     </span>
     
-    <span title="站点阅读时长">32 分钟</span>
+    <span title="站点阅读时长">8 分钟</span>
   
 </div>
 

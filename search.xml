@@ -1,158 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[KOI03]]></title>
-    <url>%2F2020%2F01%2F29%2FKOI08%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>机械</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-        <tag>机械</tag>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[KOI03]]></title>
-    <url>%2F2020%2F01%2F29%2FKOI04%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>机械</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-        <tag>机械</tag>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[KOI03]]></title>
-    <url>%2F2020%2F01%2F29%2FKOI03%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>机械</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-        <tag>机械</tag>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[KOI03]]></title>
-    <url>%2F2020%2F01%2F29%2FKOI06%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>机械</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-        <tag>机械</tag>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[KOI03]]></title>
-    <url>%2F2020%2F01%2F29%2FKOI07%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>机械</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-        <tag>机械</tag>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[KOI03]]></title>
-    <url>%2F2020%2F01%2F29%2FKOI05%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>机械</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-        <tag>机械</tag>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[KOI03]]></title>
-    <url>%2F2020%2F01%2F29%2FKOI09%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>机械</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-        <tag>机械</tag>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[KOI魔块在Makecode中使用02——人脸检测]]></title>
-    <url>%2F2020%2F01%2F28%2FKOI%E9%AD%94%E5%9D%97%E5%9C%A8Makecode%E4%B8%AD%E4%BD%BF%E7%94%A802%E2%80%94%E2%80%94%E4%BA%BA%E8%84%B8%E6%A3%80%E6%B5%8B%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>机械</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-        <tag>机械</tag>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[KOI魔块在Makecode中使用01——加载插件]]></title>
-    <url>%2F2020%2F01%2F28%2FKOI%E9%AD%94%E5%9D%97%E5%9C%A8Makecode%E4%B8%AD%E4%BD%BF%E7%94%A801%E2%80%94%E2%80%94%E5%8A%A0%E8%BD%BD%E6%8F%92%E4%BB%B6%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>机械</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-        <tag>机械</tag>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[KOI模块接线]]></title>
-    <url>%2F2020%2F01%2F28%2FKOI%E6%A8%A1%E5%9D%97%E6%8E%A5%E7%BA%BF%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>机械</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-        <tag>机械</tag>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[KOI使用方法]]></title>
-    <url>%2F2020%2F01%2F27%2FKOI%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>机械</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-        <tag>KOI</tag>
-        <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Excel插件在Kittenblock中使用方法]]></title>
-    <url>%2F2020%2F01%2F27%2FExcel%E6%8F%92%E4%BB%B6%E5%9C%A8Kittenblock%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%2F</url>
+    <title><![CDATA[tkinter学习]]></title>
+    <url>%2F2020%2F02%2F16%2Ftkinter%E5%AD%A6%E4%B9%A0%2F</url>
     <content type="text"></content>
       <categories>
         <category>软件</category>
       </categories>
       <tags>
-        <tag>Excel</tag>
-        <tag>Kittenblock</tag>
+        <tag>tkinter</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -163,8 +20,8 @@
         <category>电子</category>
       </categories>
       <tags>
-        <tag>电子</tag>
         <tag>NodeMCU</tag>
+        <tag>电子</tag>
       </tags>
   </entry>
   <entry>
@@ -175,8 +32,8 @@
         <category>电子</category>
       </categories>
       <tags>
-        <tag>电子</tag>
         <tag>NodeMCU</tag>
+        <tag>电子</tag>
       </tags>
   </entry>
   <entry>
@@ -187,75 +44,8 @@
         <category>电子</category>
       </categories>
       <tags>
-        <tag>电子</tag>
         <tag>NodeMCU</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[AD学习笔记12]]></title>
-    <url>%2F2019%2F11%2F05%2FAD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B012%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>机械</category>
-      </categories>
-      <tags>
         <tag>电子</tag>
-        <tag>机械</tag>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[AD学习笔记11]]></title>
-    <url>%2F2019%2F11%2F05%2FAD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B011%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>机械</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-        <tag>机械</tag>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[AD学习笔记10]]></title>
-    <url>%2F2019%2F11%2F03%2FAD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B010%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>机械</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-        <tag>机械</tag>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[AD学习笔记09]]></title>
-    <url>%2F2019%2F10%2F27%2FAD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B009%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>电子</category>
-        <category>AD学习笔记</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-        <tag>AD</tag>
-        <tag>PCB元件库</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[AD学习笔记08]]></title>
-    <url>%2F2019%2F10%2F13%2FAD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B008%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>电子</category>
-        <category>AD学习笔记</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-        <tag>AD</tag>
-        <tag>PCB元件库</tag>
       </tags>
   </entry>
   <entry>
@@ -268,102 +58,6 @@
       <tags>
         <tag>谷歌成长</tag>
         <tag>项目章程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[SW曲面学习笔记01]]></title>
-    <url>%2F2019%2F09%2F14%2FSW%E6%9B%B2%E9%9D%A2%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B001%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>机械</category>
-      </categories>
-      <tags>
-        <tag>机械</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[AD学习笔记07]]></title>
-    <url>%2F2019%2F09%2F06%2FAD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B007%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>电子</category>
-        <category>AD学习笔记</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[AD学习笔记06]]></title>
-    <url>%2F2019%2F08%2F26%2FAD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B006%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>电子</category>
-        <category>AD学习笔记</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[AD学习笔记05]]></title>
-    <url>%2F2019%2F08%2F25%2FAD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B005%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>机械</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-        <tag>机械</tag>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[AD学习笔记04]]></title>
-    <url>%2F2019%2F08%2F25%2FAD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B004%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>电子</category>
-        <category>AD学习笔记</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[AD学习笔记03]]></title>
-    <url>%2F2019%2F08%2F18%2FAD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B003%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>电子</category>
-        <category>AD学习笔记</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[AD学习笔记02]]></title>
-    <url>%2F2019%2F08%2F18%2FAD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B002%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>电子</category>
-        <category>AD学习笔记</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[AD学习笔记01]]></title>
-    <url>%2F2019%2F06%2F14%2FAD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B001%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>电子</category>
-        <category>AD学习笔记</category>
-      </categories>
-      <tags>
-        <tag>电子</tag>
       </tags>
   </entry>
 </search>
